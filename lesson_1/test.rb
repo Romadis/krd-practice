@@ -1,5 +1,7 @@
-def say_hello
-    puts "Say hello"
+def greeting(username)
+    puts "Hello #{username}"
 end
 
-say_hello
+name = gets.chomp
+
+greeting(name)

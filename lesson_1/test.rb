@@ -1,7 +1,5 @@
-def greeting(username)
-    puts "Hello #{username}"
-end
+arr = []
+arr << "Vladislav"
+arr.push(1)
+puts arr
 
-name = gets.chomp
-
-greeting(name)

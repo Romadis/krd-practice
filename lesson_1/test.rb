@@ -1,7 +1,3 @@
-arr = []
-arr << "Vladislav"
-arr.push(1)
-arr.delete("Vladislav")
-arr.delete(1)
-puts arr
-
+def multiply(left, right)
+    left * right
+end

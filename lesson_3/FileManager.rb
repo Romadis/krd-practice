@@ -34,7 +34,7 @@ class FileManager
       file = File.open(@path, "w")
       file.write(File.read(buff))
       file.close
-      File.delete(@buffer) if File.exists?(@buffer)
+      File.delete(@buffer) if File.exist?(@buffer)
     end
   
     # Удаляет строку 

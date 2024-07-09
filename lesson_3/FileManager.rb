@@ -45,7 +45,7 @@ class FileManager
       end
       buff.close
       File.write(@path, File.read(buff))
-      File.delete(@buffer) if File.exists?(@buffer)
+      File.delete(@buffer) if File.exist?(@buffer)
     end
   
     # Добавляет строку в конец файла
